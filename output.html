@@ -1,3 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BAD PROGRAMMER'S MANUAL</title>
+<style>
+@font-face {
+  font-family: typewrong;
+  src: url(./assets/fonts/typwrng.ttf);
+}
+
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p, pre {
+  font: 16px typewrong;
+  letter-spacing: 0.1em;
+  padding: 1em 10ch;
+  margin: 0;
+  max-width: 80em;
+}
+
+pre {
+  display: inline-block;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 5em;
+}
+</style>
+<script>
+  window.onload = function () {
+    var width = document.getElementsByTagName("pre")[0].scrollWidth;
+
+    [].slice.call(document.getElementsByTagName("p")).forEach(function (x) {
+      console.log(x);
+      console.log(width);
+      x.setAttribute("style", "width: " + width + "px");
+    });
+  };
+</script>
+  </head>
+  <body>
+    <p>BAD PROGRAMMER'S MANUAL</p>
+    <p>The Internet</p>
+    <p>December 14, 2017</p>
+
+    <pre>
 To have files see as they are: cat reads the input buffers and transfers
 the value to a typewriter.
 
@@ -27,3 +80,6 @@ Diagnostics: Not even once.
 
 If it occurs that there are problems, I have died. Otherwise, contact should
 be simple. Context is important. 
+</pre>
+</body>
+</html>
