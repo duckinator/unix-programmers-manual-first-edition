@@ -17,3 +17,5 @@ for x in {intro,11,12,13,14,21,22,31,41,51,61,71}; do
   ps2ascii "../ps-files/man${x}.ps" "./man${x}.txt"
   popd
 done
+
+./concat.sh > all.txt
