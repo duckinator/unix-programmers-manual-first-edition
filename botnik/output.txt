@@ -1,0 +1,33 @@
+                          BAD PROGRAMMER'S MANUAL
+                               The Internet
+                             December 14, 2017
+
+To have files see as they are: cat reads the input buffers and transfers
+the value to a typewriter.
+
+When an argument is less than 8, and relocation instructions are not yet
+implemented, the file will be renamed to some of its contents. This feature
+can be used to generate an error. Commands which exist can only be invoked
+via some sort of characters written in the terminal.
+
+Files may be removed if there is no input for a time. Therefore, the process
+to die is a new feature.
+
+Permission to write may be denied. In this case, the correct results may be
+found by searching the stack. Thus: the default shell is garbage.
+
+Bugs should be found before use of the software. In the event they are not,
+the first occurence of a bug can often disturb the user. There is a good
+chance the program will not exist, so it is illegal to be in a user's mailbox.
+
+If an entry is separated from the standard input, the current working
+directory may be deleted. In the event of unfortunate removal, consideration
+should be given to the idea of free range tapes.
+
+This is a little kludgy, so no effort has been put into debugging. Bugs
+should be reported to /dev/null. Debugging is for others to do.
+
+Diagnostics: Not even once.
+
+If it occurs that there are problems, I have died. Otherwise, contact should
+be simple. Context is important. 
